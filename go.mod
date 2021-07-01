@@ -1,3 +1,3 @@
-module github.com/CasimirYang/common-share
+module github.com/CasimirYang/share
 
 go 1.14
