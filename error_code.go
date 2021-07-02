@@ -1,8 +1,11 @@
-package common_share
+package share
 
 
 const (
-	 SuccessCode     = 0
-	 SystemErrorCode = 1
-	 NoDataErrorCode = 2
+	Success        = 0
+	SystemError    = 1
+	InvalidParams  = 2
+	LoginFailError = 3
+	InvalidToken   = 4
 )
+
