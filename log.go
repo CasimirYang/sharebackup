@@ -9,7 +9,7 @@ var Logger seelog.LoggerInterface
 
 func init() {
 	var err error
-	Logger, err = seelog.LoggerFromConfigAsFile("../seelog.xml")
+	Logger, err = seelog.LoggerFromConfigAsFile("seelog.xml")
 
 	if err != nil {
 		log.Fatal(err)
